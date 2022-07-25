@@ -1,5 +1,5 @@
 {
-	 background: #0000;
+	background:#f8f8f8;
 }
 *{
 	padding:0;
@@ -14,15 +14,10 @@ a{
 	text-align:center;
 	text-decoration:none;
 }
- 
 #main-lord{
 	width:100%;
 	height:100vh;
-	background:radial-gradient(#ffc0cb, #ffc0cb, #ffc0cb 90%);
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background:url(https://img.xatblog.net/image/Ji8j0gIOyN.jpg)top left repeat ,radial-gradient(#150491, #2d64e3, #579ff7 90%);
 	font-family:var(--font);
 	color:white;
 	font-size:1em;
@@ -57,7 +52,7 @@ a{
 	height:67px;
 	line-height:67px;
 	font-size:2em;
-	color:#FF82AB;
+	color:#fafa84;
 	border-radius:50%;
 	background:white;
 	box-shadow:0 0 0 16px rgba(255,255,255,0), 0 0 0 33px rgba(255,255,255,0);
@@ -68,6 +63,7 @@ a{
 }
 @keyframes pulse{
 	0%{
+		
 		box-shadow:0 0 0 0 white, 0 0 0 0 white;
 	}
 	100%{
@@ -87,7 +83,7 @@ a{
 	transform:translate(135px, 388px);
 }
 .center-lord{
-	width: 400px;
+	width:380px;
 	height:380px;
 	border-radius:50%;
 	padding:10px;
@@ -99,7 +95,7 @@ a{
 	overflow:hidden;
 }
 .img-princ-lord{
-	width:380px;
+	width:360px;
 	height:360px;
 	border-radius:50%;
 	position:absolute;
@@ -111,13 +107,12 @@ a{
 	border-radius:4px;
 	line-height:40px;
 	text-align:center;
-	color:#FF82AB;
+	color: #fafa84;
 }
 .title-lord{
 	margin-top:250px;
 	width:180px;
 	margin-left:90px;
-	color:#FF82AB;
 }
 .subtitle-lord{
 	width:360px;
@@ -174,8 +169,8 @@ a{
 	line-height:40px;
 	margin:0 5px;
 	background:white;
-	color:#FF82AB;
-	box-shadow:0 5px #FF82AB;
+	color:#fff82b;
+	box-shadow:0 5px #fafa84;
 	border-radius:4px;
 	text-transform:uppercase;
 	transition:all .4s;
@@ -183,7 +178,7 @@ a{
 }
 .btn-page-lord:hover{
 	box-shadow:0 5px rgba(234,99,40,.4), 0 0 30px 20px rgba(0,0,0,.2);
-	background:#FF82AB;
+	background:#fafa84;
 	color:white;
 }
 .box-video-lord{
@@ -193,7 +188,7 @@ a{
 	top:50%;
 	left:50%;
 	transform:translate(-50%, -50%);
-	box-shadow:0 10px #FF82AB;
+	box-shadow:0 10px #fafa84;
 }
 #content-lord-3:target #friends-lord, #galery-lord{
 	visibility:hidden;
@@ -224,7 +219,7 @@ a{
 	height:570px;
 	margin-top:120px;
 	margin-left:40%;
-	border-left:solid 1px #E00B0B;
+	border-left:solid 1px #fafa84;
 	padding-left:20px;
 }
 .box-friends-lord{
@@ -239,7 +234,7 @@ a{
 	height:100px;
 	padding:5px;
 	border-radius:50%;
-	background:#FF82AB;
+	background:#fafa84;
 	position:relative;
 	z-index:10;
 }
@@ -254,7 +249,7 @@ a{
 	line-height:40px;
 	padding-left:0;
 	font-size:.6em;
-	color:#FF82AB;
+	color:#fafa84;
 	transition:all .3s;
 }
 .simbol-lord{
@@ -282,19 +277,19 @@ a{
 	top:0;
 	left:10%;
 	background:black;
-	border-right:5px solid #FF82AB;
-	border-left:solid 5px #FF82AB;
+	border-right:5px solid #fafa84;
+	border-left:solid 5px #fafa84;
 }
 .box-img-galery-lord{
 	width:474px;
-	height:1200px;
+	height:380px;
 	overflow:hidden;
 	margin:10px 10px;
 	display:inline-block;
 }
 .img-lord{
 	width:474px;
-	height:1200px;
+	height:100%;
 	filter:grayscale(1);
 	transition:all .4s;
 	cursor:pointer;
@@ -308,5 +303,5 @@ a{
 	background:white;
 }
 ::-webkit-scrollbar-thumb{
-	background: #FF82AB;
+	background: #fafa84;
 	© 2021 GitHub, Inc.
