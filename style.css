@@ -52,7 +52,7 @@ a{
 	height:67px;
 	line-height:67px;
 	font-size:2em;
-	color:#65aaf7;
+	color:#7dc9ff;
 	border-radius:50%;
 	background:white;
 	box-shadow:0 0 0 16px rgba(255,255,255,0), 0 0 0 33px rgba(255,255,255,0);
@@ -107,7 +107,7 @@ a{
 	border-radius:4px;
 	line-height:40px;
 	text-align:center;
-	color: #65aaf7;
+	color: #7dc9ff;
 }
 .title-lord{
 	margin-top:250px;
@@ -169,8 +169,8 @@ a{
 	line-height:40px;
 	margin:0 5px;
 	background:white;
-	color:#fff82b;
-	box-shadow:0 5px #8cd2fa;
+	color:#7dc9ff;
+	box-shadow:0 5px #7dc9ff;
 	border-radius:4px;
 	text-transform:uppercase;
 	transition:all .4s;
