@@ -170,7 +170,7 @@ a{
 	margin:0 5px;
 	background:white;
 	color:#fff82b;
-	box-shadow:0 5px #fafa84;
+	box-shadow:0 5px #8cd2fa;
 	border-radius:4px;
 	text-transform:uppercase;
 	transition:all .4s;
@@ -178,7 +178,7 @@ a{
 }
 .btn-page-lord:hover{
 	box-shadow:0 5px rgba(234,99,40,.4), 0 0 30px 20px rgba(0,0,0,.2);
-	background:#fafa84;
+	background:#a7dcfa;
 	color:white;
 }
 .box-video-lord{
